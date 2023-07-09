@@ -72,18 +72,19 @@ nav {
 }
 
 .my-img {
-  max-width: 240px;
+  max-width: 200px;
 }
 
 .about-me h2 {
-  font-size: 65px;
+  font-size: 55px;
   margin-top: 130px;
 }
 
 .about-me p {
-  font-size: 20px;
+  font-size: 22px;
   text-align: left;
 }
+
 
 @media (max-width: 768px) {
   .hero {
@@ -109,6 +110,10 @@ nav {
 
   .my-img {
     max-width: 150px;
+  }
+
+  .about-me p {
+    font-size: 18px;
   }
 }
 
