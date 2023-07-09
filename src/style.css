@@ -28,11 +28,12 @@ h6 {
 nav {
   margin: 0;
   padding: 0;
+  font-size: 20px;
 }
 
 .logo {
-  width: 140px;
-  height: 140px;
+  width: 110px;
+  height: 110px;
 }
 
 .navbar {
@@ -43,13 +44,13 @@ nav {
   background-color: var(--primary-color);
   padding: 160px 20px;
   text-align: center;
-  background-image: url("../images/Taieri.png") ;
+  background-image: url("../images/Taieri.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.hero-text{
+.hero-text {
   padding: 40px 10px;
   background-color: var(--primary-color);
   border-radius: 10px;
@@ -70,6 +71,20 @@ nav {
   font-size: 24px;
 }
 
+.my-img {
+  max-width: 240px;
+}
+
+.about-me h2 {
+  font-size: 65px;
+  margin-top: 130px;
+}
+
+.about-me p {
+  font-size: 20px;
+  text-align: left;
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 80px 20px;
@@ -85,5 +100,23 @@ nav {
 
   .hero p {
     font-size: 14px;
+  }
+
+  .about-me h2 {
+    font-size: 32px;
+    margin-top: 80px;
+  }
+
+  .my-img {
+    max-width: 150px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .container {
+    width: 1870px;
+  }
+  .hero {
+    padding: 220px 20px;
   }
 }
