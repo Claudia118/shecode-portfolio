@@ -85,6 +85,9 @@ nav {
   text-align: left;
 }
 
+.skill-icon {
+  text-decoration: underline var(--accent-color);
+}
 
 @media (max-width: 768px) {
   .hero {
