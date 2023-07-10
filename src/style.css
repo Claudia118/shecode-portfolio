@@ -38,8 +38,8 @@ section h2 {
 }
 
 .logo {
-  width: 110px;
-  height: 110px;
+  width: 120px;
+  height: 120px;
 }
 
 .navbar {
@@ -92,6 +92,14 @@ section h2 {
 
 .skill-icon p {
   text-align: center;
+}
+
+.project-img {
+  border: 3px solid var(--accent-color);
+}
+
+.content p {
+  margin: 0;
 }
 
 @media (max-width: 768px) {
