@@ -96,10 +96,19 @@ section h2 {
 
 .project-img {
   border: 3px solid var(--accent-color);
+  border-radius: 15px;
 }
 
 .content p {
   margin: 0;
+}
+
+.contact-icons {
+  font-size: 60px;
+  padding: 0px 10px;
+  border: 1px solid var(--accent-color);
+  background-color: #f0f0f0;
+  border-radius: 50%;
 }
 
 @media (max-width: 768px) {
@@ -147,5 +156,14 @@ section h2 {
   }
   .hero {
     padding: 240px 20px;
+  }
+
+  .about-me,
+  .projects {
+    padding: 60px 20px;
+  }
+
+  .contact{
+    padding: 40px 20px;
   }
 }
