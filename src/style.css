@@ -104,11 +104,35 @@ section h2 {
 }
 
 .contact-icons {
-  font-size: 60px;
+  font-size: 55px;
   padding: 0px 10px;
+  margin: 10px 10px;
   border: 1px solid var(--accent-color);
-  background-color: #f0f0f0;
   border-radius: 50%;
+}
+
+.linkedin {
+  padding-right: 0;
+}
+
+footer section {
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 20px 0;
+  transition: 0.3ms ease-in-out;
+}
+
+.contact-links {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.contact-links :hover {
+  color: var(--accent-color);
+  transition: all 0.5s ease-in-out;
 }
 
 @media (max-width: 768px) {
@@ -148,6 +172,10 @@ section h2 {
   .skill-icon {
     padding: 0 10px;
   }
+
+  .contact-icons {
+    font-size: 40px;
+  }
 }
 
 @media screen and (min-width: 1900px) {
@@ -161,9 +189,5 @@ section h2 {
   .about-me,
   .projects {
     padding: 60px 20px;
-  }
-
-  .contact{
-    padding: 40px 20px;
   }
 }
